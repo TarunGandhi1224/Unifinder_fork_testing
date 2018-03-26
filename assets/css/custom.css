@@ -1,0 +1,760 @@
+/* COLOUR REFERENCES
+
+Green:   #79b044
+Salmon:  #dd5638
+Blue Gry:#3e4249
+
+*/
+
+/* === GENERAL ==*/
+
+body {
+    margin-top: 50px;
+    font-family: 'proxima-nova', 'Raleway', sans-serif;
+    font-size: 16px;
+    background: url(../img/tile.jpg) top left repeat;
+    height:100%;
+}
+
+/* === GLOBAL ===*/
+h1,h2,h3,h4,h5,h6 {
+    text-rendering: optimizeLegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1,h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+a:link {
+    color:#dd5638;
+}
+
+a.hover {
+    text-decoration: : none;
+    color:#c9302c;
+}
+
+
+
+.btn {
+    font-weight: bold;
+}
+
+button.btn:focus {
+    outline: none !important;
+}
+
+.btn-danger {
+    background-color: #dd5638;
+    border-collapse: #d95131;
+}
+
+.btn-success {
+    background: #79b044;
+    border: : none;
+}
+.btn-success:hover {
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+}
+
+img {
+    max-width: 100%;
+}
+
+.badge.social {
+    background: #ccc;
+    font-size:24px;
+    height:40px;
+    width: 40px;
+    text-align: center;
+    line-height:40px;
+    margin:0 5px 20px 0;
+    border-radius: 50px;
+    color:white;
+}
+
+.badge.social.twitter:hover {
+    background: #55acee;
+}
+
+.badge.social.facebook:hover {
+    background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+    background: #db4b39;
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+    
+}
+ 
+blockquote cite {
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0;
+}
+
+blockquote:before {
+    display:none;
+}
+
+/* ==================== Background video ====================*/
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background: url('') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+/* ================== END Background Video =========================*/
+/* === HREO ===*/
+#hero {
+    
+    background: url('../img/hero-bg.jpg') 50% 0 no-repeat fixed;
+    min-height: 500px;
+    padding: 40px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+#hero article {
+    width: 100%;
+    text-align: center;
+}
+
+#hero .hero-text {
+    margin-top: 70px;
+    
+}
+
+#hero .hero-select {
+    margin-top: 30px;
+    text-align: center;
+}
+#hero select {
+    color: black;
+    
+}
+
+#hero .match-button {
+    margin-top: 90px;
+}
+
+#hero form .search-bar {
+    margin-bottom: 40px
+}
+
+/* ==================== End Hero ========================*/
+
+/* =================== InSearch =========================*/
+
+#InSearch {
+    margin:160px 0;
+    min-height: 500px;
+    padding: 40px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+}
+#InSearch article {
+    width: 100%;
+    text-align: center;
+}
+
+#InSearch .hero-text {
+    margin-top: 70px;
+    
+}
+
+#InSearch .hero-select {
+    margin-top: 30px;
+    text-align: center;
+}
+#InSearch select {
+    color: black;
+    
+}
+
+#InSearch .match-button {
+    margin-top: 90px;
+}
+
+#InSearch form .search-bar {
+    margin-bottom: 40px
+}
+
+/* ========================  End InSearch  =========================*/
+
+
+
+#price-timeline {
+    margin: 30px 0 60px;
+    text-align: center;
+}
+
+#price-timeline .price {
+    display: inline-block;
+    margin: 0 2% 0 0;
+    width: 30%;
+    background: #3e4249;
+    padding: 10px 20px 30px;
+    position: relative;
+    vertical-align: top;
+}
+
+#price-timeline .price.active {
+    background: #dd5638;
+}
+
+#price-timeline .price span {
+    background: #101010;
+    display: block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 100%;
+    position:absolute;
+    bottom: -35px;
+    left:50%;
+    margin-left: -35px;
+}
+
+#price-timeline h4 {
+    margin: 0 0 10px;
+}
+
+#price-timeline h4 small {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+
+/* ===== LAYOUT   ======*/
+
+section {
+    padding: 80px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+section h2 {
+    margin: 20px 0 40px;
+}
+
+section h3 {
+    margin: 30px 0 10px;
+}
+
+
+/* ==================================== Video Carousel ===================================*/
+
+#video {
+    height: 800px;
+    padding: inherit;
+    
+}
+#video .carousel {
+  width: 100%;
+  background-color: #000;
+  height: 100%;
+}
+
+#video .carousel input{
+  width: 600px;
+ 
+}
+
+#video .carousel select {
+    font-size: 20px;
+    color: black;
+    
+}
+
+#video .carousel button {
+    margin-top: 10px;
+    
+}
+
+/* Since positioning the image, we need to help out the caption */
+#video .carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+#video .carousel .item {
+    margin-top: 150px;
+    height: 500px;
+  background-color: #777;
+}
+#video .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+    background-color: white;
+}
+
+#video .carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+#video .carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+#video .carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+#video .carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+#video .carousel-fade .carousel-control {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-fade .carousel-control .glyphicon {
+  font-size: 6rem;
+}
+.carousel,
+.carousel-inner,
+.carousel-inner .item {
+  height: 100%;
+}
+.stopfade {
+  opacity: 0.5;
+}
+.slide-content {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+.slide-content video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  -webkit-transition: 1s opacity;
+  transition: 1s opacity;
+}
+.slide-content video::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
+
+.door {
+  font-family: Revista-Black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.door .title {
+  font-size: 14rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  line-height: 13rem;
+}
+.door .description {
+  border-top: 1px solid #fff;
+  margin-top: 15px;
+  font-size: 4rem;
+}
+
+
+
+
+/* ===================================Video Carousel End ============================== */
+
+#boost-income {
+    background: url(../img/tile.jpg) top left repeat;
+}
+
+#list-in-search {
+    background: url(../img/tile.jpg) top left repeat;
+    margin-bottom: 90px;
+}
+
+#optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+#optin p{
+    margin: 7px 0 0 0;
+}
+ 
+#search-optin {
+    background: #3e4249;
+    padding: 20px 0;
+    color: white;
+    text-rendering: optimizeLegibility;
+    font-size: 1.2em;
+}
+
+#search-optin body{
+    
+}
+
+#search-optin p{
+    margin: 7px 0 0 0;
+}
+#who-benefits {
+    background: white;
+}
+
+#course-features {
+    background: #3e4249;
+    color: white;
+    text-align: center;
+}
+
+#project-features {
+    background: url(../img/tile.jpg) top left repeat;
+    text-align: center;
+}
+
+#featurette {
+    background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+
+#advertisement {
+    background: white
+}
+
+#advertisement h2 {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+#advertisement .num {
+    display: table;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    height: 140px;
+    width:140px;
+    text-align: center;
+    background: #dd5638;
+    border-radius: 100%;
+    
+}
+
+#advertisement .num .num-content {
+    display: table-cell;
+    vertical-align:middle
+}
+
+/* Carousel base class */
+#advertisement .carousel {
+  height: 500px;
+  margin-bottom: 60px;
+
+}
+/* Since positioning the image, we need to help out the caption */
+#advertisement .carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+#advertisement .carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+#advertisement .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+    background-color: white;
+}
+
+
+
+#kudos {
+    background: url(../img/tile.jpg) top left repeat;
+    text-align: center;
+}
+
+#kudos .testimonial {
+    margin-bottom: 60px;
+}
+
+
+
+#signup {
+    text-align: center;
+    background: url('../img/hipster-stuff.jpg')center center repeat fixed;
+    background-size: cover;
+    color: white;
+    padding: 140px 0;
+    
+}
+
+#signup h2 {
+    font-weight: normal;
+}
+
+#signup h2 strong {
+    border-bottom: solid 2px #dd5638;
+}
+
+#signup .btn {
+    font-size: 24px;
+}
+
+section.feature-image {
+    background: url('../img/stuff-feature.jpg') 50% 100% repeat fixed;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    
+}
+
+section.feature-image-default {
+    height: 10px;
+    
+}
+
+
+footer {
+    background: #3e4249;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+}
+
+foot p {
+    margin 0;
+}
+
+foot a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #dd5638;
+}
+
+footer li.signup-link a {
+    color:#dd5638;
+}
+
+footer li.signup-link a:hover {
+   font-weight: bold;
+}
+
+/* === CUSTOM ICON SPRITES === */
+
+i.ci {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/icon-sprite.png') no-repeat;
+}
+
+.ci.ci-computer      {background-position: 0 0;}
+.ci.ci-watch         {background-position: -40px 0;}
+.ci.ci-calender      {background-position: -80px 0;}
+.ci.ci-community     {background-position: -120px 0;}
+.ci.ci-instructor    {background-position: -160px 0;}
+.ci.ci-device        {background-position: -200px 0;}
+
+
+#LoginForm {
+    margin: 60px 0 60px 0;
+}
+
+
+/* ================ CUSTOM PROFILE  ================== */
+
+.wizard {
+    margin: 10px 0 10px 0;
+    
+}
+
+.wizard .nav-tabs {
+    position: relative;
+    margin: 20px auto;
+    margin-bottom: 0;
+    border-bottom-color: #e0e0e0;
+}
+
+.wizard > div.wizard-inner {
+    position: relative;
+}
+
+.connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 1;
+}
+
+.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+}
+
+span.round-tab {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    border-radius: 100px;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 25px;
+}
+span.round-tab i{
+    color:#555555;
+}
+.wizard li.active span.round-tab {
+    background: #fff;
+    border: 2px solid #5bc0de;
+    
+}
+.wizard li.active span.round-tab i{
+    color: #5bc0de;
+}
+
+span.round-tab:hover {
+    color: #333;
+    border: 2px solid #333;
+}
+
+.wizard .nav-tabs > li {
+    width: 25%;
+}
+
+.wizard li:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 0;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 5px solid transparent;
+    border-bottom-color: #5bc0de;
+    transition: 0.1s ease-in-out;
+}
+
+.wizard li.active:after {
+    content: " ";
+    position: absolute;
+    left: 46%;
+    opacity: 1;
+    margin: 0 auto;
+    bottom: 0px;
+    border: 10px solid transparent;
+    border-bottom-color: #5bc0de;
+}
+
+.wizard .nav-tabs > li a {
+    width: 70px;
+    height: 70px;
+    margin: 20px auto;
+    border-radius: 100%;
+    padding: 0;
+}
+
+.wizard .nav-tabs > li a:hover {
+    background: transparent;
+}
+
+.wizard .tab-pane {
+    position: relative;
+    padding-top: 50px;
+}
+
+.wizard h3 {
+    margin-top: 0;
+}
+
+.wizard #step2 {
+    border:1px solid #ccc;
+    border-radius:5px;
+    padding-left:10px;
+    margin-bottom:10px;
+}
+
+.mar_ned {
+    margin-bottom:10px;
+}
+/* ==========================Custom Profile End=========================*/
