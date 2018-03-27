@@ -46,6 +46,7 @@ download all the file and put them into the htdocs/ in Xampp.
 ## Demo Video
 
 Here is a video demo. Excited!
+![img](https://github.com/yuhaozhuang93/Unifinder/blob/master/demo/index2.gif)
 
 ## Team Member
 
