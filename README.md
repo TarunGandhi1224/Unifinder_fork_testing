@@ -9,7 +9,7 @@ a web application using PHP, MySQL, HTML &amp; CSS, and CMS System to enable stu
 
 ## Getting Started
 
--*********
+download all the file and put them into the htdocs/ in Xampp. 
 
 ## Functions in Application
 
