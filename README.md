@@ -36,7 +36,12 @@ download all the file and put them into the htdocs/ in Xampp.
 
 ## Screenshot
 
-
+#### index
+![img](https://github.com/yuhaozhuang93/Unifinder/blob/master/demo/index.png)
+#### After login
+![img](https://github.com/yuhaozhuang93/Unifinder/blob/master/demo/inter_index.png)
+#### login page
+![img](https://github.com/yuhaozhuang93/Unifinder/blob/master/demo/login.png)
 
 ## Demo Video
 
